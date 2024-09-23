@@ -785,5 +785,20 @@ struct LIST {
          } 
      }//Time Complexity：O(n) 
 ```
+### Linked List 链表
 
+#### Note:
+```c
+struct Node{
+  int data;
+  struct Node *next;
+};
+```
+The difference between:
+(1) struct Node *ListNode;
+  生成了一个指针
+(2) struct Node &ListNode;
+  这是c++语法，必须同时给这个表达式赋值
+(3) struct Node ListNode;
+  生成了一个变量
 
