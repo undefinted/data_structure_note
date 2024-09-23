@@ -795,10 +795,10 @@ struct Node{
 };
 ```
 The difference between:
-(1) struct Node *ListNode;
-  生成了一个指针
-(2) struct Node &ListNode;
+##### (1) struct Node *ListNode;
+   生成了一个指针
+##### (2) struct Node &ListNode;
   这是c++语法，必须同时给这个表达式赋值
-(3) struct Node ListNode;
+##### (3) struct Node ListNode;
   生成了一个变量
 
